@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class MainConroller {
     @GetMapping("/")
     public String test() {
-        return "Hello Ramadan!";
+        return "Hello Ramadan!!";
     }
 
 }
